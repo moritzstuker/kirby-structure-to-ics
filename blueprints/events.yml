@@ -35,7 +35,7 @@ fields:
       event_description:
         label: Description
         type: textarea
-      hash_id:
+      event_id:
         label: ID
         type: text
         placeholder: Will be filled automatically when the page is saved.
