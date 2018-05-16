@@ -1,3 +1,3 @@
-# Kirby CMS - Generate downloadable .ics file for your structured fields
+# Kirby CMS - Generate .ics files for your structured fields
 
 Needs [Texnixe's kirby-structure-id plugin](https://github.com/texnixe/kirby-structure-id) to work.
