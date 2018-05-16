@@ -1,0 +1,42 @@
+title: Events
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  events:
+    label: Events
+    type: structure
+    sort: event_dtstart, asc
+    style: table
+    entry:
+      - event_title
+      - event_location
+      - event_dtstart
+      - event_dtend
+    fields:
+      event_title:
+        label: Title
+        type: text
+      event_location:
+        label: Location
+        type: text
+      event_dtstart:
+        label: Beginning
+        type: datetime
+        time:
+          interval: 30
+      event_dtend:
+        label: End
+        type: datetime
+        time:
+          interval: 30
+      event_description:
+        label: Description
+        type: textarea
+      hash_id:
+        label: ID
+        type: text
+        placeholder: Will be filled automatically when the page is saved.
+        readonly: true
